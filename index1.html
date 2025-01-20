@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        th{
+            background-color: aqua;
+            color: black;
+        }
+        tr{
+            background-color: pink;
+            color: black;
+        }
+        table,tr,td,th{
+            border: 2px solid black;
+           
+        }
+        td,th{
+            height: 50px;
+            width: 100px;
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
-    <p>hello git</p>
+    <div class="table1">
+        <table>
+            <thead>
+                <caption>This ia a simple table</caption>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Subject</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>lipsa</td>
+                    <td>01</td>
+                    <td>Math</td>
+                </tr>
+                <tr>
+                    <td>dibya</td>
+                    <td>02</td>
+                    <td>chemistry</td>
+                </tr>
+                <tr>
+                    <td>jamuna</td>
+                    <td>03</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td>Lija</td>
+                    <td>04</td>
+                    <td>Odia</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+
 </body>
 </html>
